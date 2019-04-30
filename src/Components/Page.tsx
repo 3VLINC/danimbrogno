@@ -46,7 +46,7 @@ export const Page: React.FC = (props) => {
 
     return (
         
-        <Grid className={classes.root} container spacing={16} alignItems="stretch">
+        <Grid className={classes.root} container spacing={0} alignItems="stretch">
             <Grid className={classes.details} item xs={4}>
                 <div className={classes.insideLeft}>
                     <Details />

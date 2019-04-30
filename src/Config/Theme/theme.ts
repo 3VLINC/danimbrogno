@@ -12,7 +12,8 @@ export const theme = createMuiTheme({
       },
       h1: {
           fontSize: 22,
-          paddingBottom: 8,
+          paddingBottom: 16,
+          marginBottom: 24,
           borderBottom: '1px solid black'
       },
       h2: {
@@ -33,22 +34,6 @@ export const theme = createMuiTheme({
   },
   overrides: {
     MuiTypography: {
-    //   title: {
-    //     fontSize: 18,
-    //     color: 'red'
-    //   },
-    //   subtitle1: {
-    //     fontSize: 16,
-    //     color: 'red'
-    //   },
-    //   h1: {
-    //       fontSize: 14,
-    //       color: 'red'
-    //   },
-    //   h2: {
-    //       fontSize: 14,
-    //       color: 'red'
-    //   }
       gutterBottom: {
         marginBottom: 15
       }
