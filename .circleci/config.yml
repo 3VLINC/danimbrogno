@@ -33,6 +33,7 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/
+      - add_ssh_keys
       - run: git config --global user.email "dan@3vl.ca" && git config --global user.name "Dan Imbrogno"
       - run: "cd ~/repo && git add -A && git commit --message=\"chore(release): update docs folder [skip ci]\" && git push origin master"
 workflows:
