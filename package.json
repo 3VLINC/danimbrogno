@@ -2,6 +2,7 @@
   "name": "danimbrogno",
   "version": "0.1.0",
   "private": true,
+  "license": "unlicensed",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
