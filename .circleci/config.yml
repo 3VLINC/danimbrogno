@@ -7,9 +7,6 @@ executors:
   node:
     docker:
       - image: node:8.16.0-jessie
-  base:
-    machine:
-      image: circleci/classic:201808-01
 jobs:
   checkout:
     executor: node
