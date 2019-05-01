@@ -61,7 +61,7 @@ export const resume: Resume = {
             position: 'Founder',
             summary: [
                 `Founded boutique digital experience agency providing web design, application development and social media marketing services to business`,
-                `Hired two employees`,
+                `Grew company to > 200k annual revenue. Hired two employees`,
                 `Built custom themes, plugins, e-commerce solutions and digital contests primarily using PHP and the WordPress publishing platform`
             ],
             dateRange: {

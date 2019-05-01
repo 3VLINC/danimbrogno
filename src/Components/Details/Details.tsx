@@ -4,7 +4,6 @@ import { Typography, Theme, Divider, Avatar, Grid } from "@material-ui/core";
 import { GitHubIcon } from "../Icons/GitHubIcon";
 import { Email, Phone } from '@material-ui/icons';
 import { makeStyles } from "@material-ui/styles";
-import { IconButton } from "../IconButton";
 
 const useStyles = makeStyles((theme: Theme) => ({
     icon: {
