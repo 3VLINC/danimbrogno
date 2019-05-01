@@ -23,7 +23,7 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/
-      - run: cd ~/repo && yarn && yarn build && mv build docs
+      - run: cd ~/repo && yarn && yarn build && rm -rf docs && mv build docs
       - persist_to_workspace:
           root: ~/
           paths: 
