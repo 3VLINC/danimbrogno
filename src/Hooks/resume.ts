@@ -33,7 +33,7 @@ export const resume: Resume = {
             },
             position: 'CTO / Partner',
             summary: [
-                `Designed and developed the FreightPath web application, mobile application and API integrations using React, React Native and Node JS`,
+                `Designed and developed a commercial freight automation tool which includes web and mobile apps along with a suite of microservices using React, React Native and Node JS`,
                 `Developed CI deployment process with test automation, containerization and deployment to docker swarm`,
                 `Assisted in project planning, product design, business development`,
                 `Hired, trained and mentored junior developers`,
@@ -50,7 +50,7 @@ export const resume: Resume = {
                 to: '2017' 
             },
             position: 'Self Employed',
-            summary: ['Worked on a personal project and improved web applications development skills using NodeJS, Postgres, Angular 2, GraphQL and Docker']
+            summary: ['Worked on a personal project and improved web application development skills using NodeJS, Postgres, Angular 2, GraphQL and Docker']
         },
         {
             address: {

@@ -8,11 +8,11 @@ export interface IconButtonProps {
 export const IconButton: React.FC<IconButtonProps> = ({ icon, text }) => {
 
     return (
-        <Grid container spacing={16} alignItems="center">
-            <Grid item>
+        <Grid container spacing={8} wrap="nowrap" justify="flex-start" alignItems="center">
+            <Grid item xs='auto'>
                 {icon}
             </Grid>
-            <Grid item>
+            <Grid item xs={8}>
                 {text}
             </Grid>
         </Grid>

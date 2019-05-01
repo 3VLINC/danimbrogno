@@ -1,12 +1,9 @@
 import { createMuiTheme } from "@material-ui/core";
+import { lightBlue } from "@material-ui/core/colors";
 
 export const theme = createMuiTheme({
   typography: {
       useNextVariants: true,
-      // title: {
-      //   fontSize: 18,
-      //   color: 'red'
-      // },
       subtitle1: {
         fontSize: 16
       },
@@ -31,6 +28,12 @@ export const theme = createMuiTheme({
       body1: {
         
       },
+  },
+  palette: {
+    primary: {
+      main: lightBlue[500],
+      contrastText: '#FFFFFF'
+    }
   },
   overrides: {
     MuiTypography: {
