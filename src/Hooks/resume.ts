@@ -6,7 +6,7 @@ export const resume: Resume = {
             city: 'Chelsea',
             province: 'Quebec'
         },
-        email: 'dan@3vl.ca',
+        email: 'dan.imbrogno@gmail.com',
         name: 'Dan Imbrogno',
         phoneNumber: '289 937-1864',
         position: 'Startup CTO and Full Stack Developer',
@@ -18,7 +18,7 @@ export const resume: Resume = {
         'Self motivated, early adopter of new technologies, comfortable working independently or in team settings',
         'Excellent communication skills, experience managing people',
         '13 years experience designing, developing and deploying web applications',
-        'Demonstrable proficiency in user interface design, development of thick client applications, design of APIs, development of scalable backend applications, design of databases, development of build tools for continuous integration and automated deployment, ability to execute targeted social media marketing campaigns'
+        'Demonstrable proficiency in user interface design, development of single page applications, design of APIs, development of scalable backend applications, design of databases, development of build tools for continuous integration and automated deployment'
     ],
     experience: [
         {
@@ -36,7 +36,7 @@ export const resume: Resume = {
                 `Designed and developed a commercial freight automation tool which includes web and mobile apps along with a suite of microservices using React, React Native and Node JS`,
                 `Developed CI deployment process with test automation, containerization and deployment to docker swarm`,
                 `Assisted in project planning, product design, business development`,
-                `Hired, trained and mentored junior developers`,
+                `Hired and mentored the development team`,
             ]   
         },
         {
@@ -50,7 +50,9 @@ export const resume: Resume = {
                 to: '2017' 
             },
             position: 'Self Employed',
-            summary: ['Worked on a personal project and improved web application development skills using NodeJS, Postgres, Angular 2, GraphQL and Docker']
+            summary: [
+                'Worked on a personal project and improved web application development skills using NodeJS, Postgres, Angular 2, GraphQL and Docker'
+            ]
         },
         {
             address: {
@@ -94,7 +96,7 @@ export const resume: Resume = {
             company: 'Unidad 22',
             summary: [
                 `8 month co-op placement working for web design agency in Costa Rica`,
-                `Developed web site for tourism and real estate industry built on WordPress and Joomla`,
+                `Developed websites for the tourism and real estate industry built on WordPress and Joomla`,
                 `Learned Spanish`
             ],
             dateRange: {
@@ -121,14 +123,16 @@ export const resume: Resume = {
             'Typescript',
             'NodeJS',
             'PHP',
-            'ASP.net'
+            'ASP.net',
+            'HTMLA',
+            'CSS'
         ],
         apis: ['GraphQL', 'Rest'],
         buildTools: ['Webpack', 'Grunt', 'Gulp', 'Babel'],
         databases: ['Postgres', 'Mysql', 'Mongodb'],
         deployment: ['Docker', 'Vagrant', 'SaltStack'],
-        cloudServices: ['AWS', 'Digital Ocean', 'Aiven', 'Travis CI', 'Circle CI'],
-        frameworks: ['React', 'React Native', 'Angular', 'NestJS', 'Material UI', 'Apollo', 'RabbitMQ']
+        cloudServices: ['AWS', 'Digital Ocean', 'Aiven', 'Travis CI', 'Circle CI', 'Cloudflare'],
+        frameworks: ['React', 'React Native', 'Expo', 'Angular', 'NestJS', 'Material UI', 'Apollo', 'RabbitMQ', 'Laravel', 'WordPress']
 
     }
 };
